@@ -13,7 +13,7 @@ Visit **localhost:4040** or **IP** where is container with port 4040 for checkin
 
 | Variable                          | Default Value | Description |
 | --------------------------------- | ------------- | ----------- |
-| ARGS                              |               | `$ARGS` variable in commadn `ngrok $ARGS` |
+| ARGS                              |               | `$ARGS` variable in the command `ngrok $ARGS` |
 
 ## Full LAMP stack
 
