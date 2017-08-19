@@ -1,12 +1,20 @@
-### NGROK
-<p>NGROK image based on Alpine Linux.</p>
+# NGROK image for LAMP stack
+NGROK image based on Alpine Linux.
 
+## How to run
 
-### Available options
-<p>ARGS - will be putted to ngrok args command.</p>
-<p>Please, visit localhost:4040 or ip where is container with port 4040 for checking runned tunnels</p>
+Run and explore other container on ip or port:
 
-### How to run
-<p>Run and explore other container on ip or port:</p>
-<code>docker run -it -e ARGS="http 172.53.0.6:80" --name ngrok lordius/alpine-ngrok</code>
+`docker run -it -e ARGS="http 172.53.0.6:80" --name ngrok lordius/alpine-ngrok`
 
+Visit **localhost:4040** or **IP** where is container with port 4040 for checking running tunnels
+
+## Environment Variables
+
+| Variable                          | Default Value | Description |
+| --------------------------------- | ------------- | ----------- |
+| ARGS                              |               | `$ARGS` variable in commadn `ngrok $ARGS` |
+
+## Full LAMP stack
+
+See [docker-compose-lamp](https://github.com/a-kom/docker-compose-lamp)
