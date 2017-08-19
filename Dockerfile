@@ -1,4 +1,4 @@
-#lordius/alpine-ngrok:2.2.4
+#lordius/alpine-ngrok
 FROM alpine:3.4
 MAINTAINER lordius<andriy.khomych@gmail.com>
 RUN apk --no-cache update
