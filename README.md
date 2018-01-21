@@ -1,4 +1,4 @@
-# NGROK image for LAMP stack
+# NGROK image for Docker Compose LAMP stack
 NGROK image based on Alpine Linux.
 
 ## How to run
@@ -17,4 +17,4 @@ Visit **localhost:4040** or **IP** where is container with **port 4040** for che
 
 ## Full LAMP stack
 
-See [docker-compose-lamp](https://github.com/a-kom/docker-compose-lamp)
+See [Docker Compose LAMP](https://github.com/a-kom/docker-compose-lamp).
