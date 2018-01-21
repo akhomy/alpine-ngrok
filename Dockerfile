@@ -1,6 +1,6 @@
 #lordius/alpine-ngrok
 FROM alpine:3.4
-MAINTAINER lordius<andriy.khomych@gmail.com>
+LABEL maintainer=andriy.khomych@gmail.com
 RUN apk --no-cache update
 #Create /temp_dir for using
 RUN mkdir /temp_docker && chmod -R +x /temp_docker && cd /temp_docker
@@ -18,6 +18,3 @@ RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 RUN rm -rf /temp_docker
 ENTRYPOINT ["docker-entrypoint.sh"]
 EXPOSE 4040
-
-
-
