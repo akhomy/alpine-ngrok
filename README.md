@@ -1,4 +1,4 @@
-# NGROK image for Docker Compose LAMP stack
+# NGROK image
 NGROK image based on Alpine Linux.
 
 ## How to run
