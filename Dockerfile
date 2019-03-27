@@ -3,6 +3,7 @@ FROM alpine:latest
 LABEL maintainer=andriy.khomych@gmail.com
 # Creates /temp_dir for using.
 RUN mkdir /temp_docker && chmod -R +x /temp_docker && cd /temp_docker
+RUN mkdir /var/log/ngrok && chmod -R +x /var/log
 # Adds config script.
 RUN mkdir /root/.ngrok2 && chmod -R +x /root/.ngrok2
 COPY ngrok.yml /root/.ngrok2/
