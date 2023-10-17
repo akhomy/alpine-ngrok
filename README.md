@@ -1,9 +1,12 @@
+# Status
+Archived in favor of other tools.
+
 # NGROK image
 NGROK image based on Alpine Linux.
 
 ## How to run
 
-Run and explore other container, your web server or network IP on **IP** or **port**:
+Run and explore another container, your web server, or network IP on **IP** or **port**:
 
 `docker run -it -p 4040:4040 -e ARGS="http 172.53.0.6:80" --name ngrok akhomy/alpine-ngrok`
 
